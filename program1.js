@@ -13,7 +13,7 @@ for (const num of sortedNums) {
   }
 }
 return smallestNum;
-}
+
   function runTestCases() {
     const results = [];
 
