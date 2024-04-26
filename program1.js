@@ -1,3 +1,4 @@
+module.exports = smallestMissingPositiveInteger;
 if (nums.length === 0) {
   return undefined;
 }
@@ -43,4 +44,3 @@ return smallestNum;
 
       
     }
-    module.exports = smallestMissingPositiveInteger;
