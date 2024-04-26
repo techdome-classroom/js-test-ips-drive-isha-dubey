@@ -43,6 +43,6 @@ function runTestCases() {
   window.onload = function() {
     runTestCases();}
     
-    module.exports = smallestMissingPositiveInteger;
     
   }
+  module.exports = smallestMissingPositiveInteger;
