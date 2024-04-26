@@ -18,7 +18,7 @@ return smallestNum;
 }
 function runTestCases() {
   const results = [];
- //1
+  //1
   const result1 = smallestMissingPositiveInteger([3, 4, -1, 1]);
   results.push(result1 === 2);
   
