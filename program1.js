@@ -12,7 +12,7 @@ function smallestMissingPositiveInteger(nums) {
       smallestNum++
     }
     else if (num > smallest) {
-      return 
+      return smallestNum
     }
    }
   
