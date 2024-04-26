@@ -1,23 +1,19 @@
-function smallestMissingPositiveInteger(nums) {
+if (nums.length === 0) {
+  return undefined;
+}
 
-  if (nums.length === 0){
-    return undefined
+const sortedNums = nums.filter(num => num > 0).sort((a, b) => a - b);
+
+let smallestNum = 1;
+for (const num of sortedNums) {
+  if (num === smallestNum) {
+    smallestNum++;
+  } else if (num > smallestNum) {
+    return smallestNum;
   }
-
-  nums.sort((a , b) => a - b)
-
-   let smallestNum = 1
-   for(const num of nums){
-    if(num === smallestNum){
-      smallestNum++
-    }
-    else if (num > smallestNum) {
-      return smallestNum
-    }
-   }
-   return smallestNum
-  }
-
+}
+return smallestNum;
+}
   function runTestCases() {
     const results = [];
 
