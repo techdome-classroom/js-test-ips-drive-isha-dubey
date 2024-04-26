@@ -11,6 +11,7 @@ function smallestMissingPositiveInteger(nums) {
     if(num === smallestNum){
       smallestNum++
     }
+    else if ()
    }
   
   }
