@@ -41,6 +41,6 @@ return smallestNum;
     window.onload = function() {
       runTestCases();}
 
-  module.exports = smallestMissingPositiveInteger;
-
-  }
+      
+    }
+    module.exports = smallestMissingPositiveInteger;

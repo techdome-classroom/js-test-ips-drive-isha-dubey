@@ -1,4 +1,8 @@
 const smallestMissingPositiveInteger = require('./program1');
+const smallestMissingPositiveInteger = require('./solution');
+
+// Your test cases and runTestCases function here...
+
 const assert = require("assert");
 
 
