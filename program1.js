@@ -8,7 +8,7 @@ function smallestMissingPositiveInteger(nums) {
 
    let smallestNum = 1
    for(const num of nums){
-    if(num === smallest)
+    if(num === smallestNu)
    }
   
   }
