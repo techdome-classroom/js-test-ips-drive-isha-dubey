@@ -43,8 +43,8 @@ function smallestMissingPositiveInteger(nums) {
     console.log("All tests passed:", allPassed ? "Yes" : "No")
 
     window.onload = function() {
-      runTestCases();
-      
+      runTestCases();}
+
   module.exports = smallestMissingPositiveInteger;
 
   }
