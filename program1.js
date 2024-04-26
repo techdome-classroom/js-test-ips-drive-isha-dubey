@@ -22,7 +22,7 @@ function runTestCases() {
   const result1 = smallestMissingPositiveInteger([3, 4, -1, 1]);
   results.push(result1 === 2);
   
-  // 1
+  // 2
   const result2 = smallestMissingPositiveInteger([1, 2, 0]);
   results.push(result2 === 3);
   
