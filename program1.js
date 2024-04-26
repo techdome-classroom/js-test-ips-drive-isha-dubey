@@ -40,7 +40,7 @@ function smallestMissingPositiveInteger(nums) {
 
     // Check if all tests passed
     const allPassed = results.every(result => result);
-    console.log("All tests passed:", allPassed ? "Yes"
+    console.log("All tests passed:", allPassed ? "Yes")
   
   module.exports = smallestMissingPositiveInteger;
 
