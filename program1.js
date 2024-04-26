@@ -4,7 +4,7 @@ function smallestMissingPositiveInteger(nums) {
     return undefined
   }
 
-  nums.sort
+  nums.sort((a , b) => a - b)
 
     // Implement the function smallest_missing_positive_integer
   
