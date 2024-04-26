@@ -26,7 +26,7 @@ function runTestCases() {
   const result2 = smallestMissingPositiveInteger([1, 2, 0]);
   results.push(result2 === 3);
   
-  // Test case 3
+  // 3
   const result3 = smallestMissingPositiveInteger([-1, -3, 4, 2]);
   results.push(result3 === 1);
   
