@@ -30,12 +30,12 @@ function runTestCases() {
   const result3 = smallestMissingPositiveInteger([-1, -3, 4, 2]);
   results.push(result3 === 1);
   
-  // Output results
+
   console.log("Test case 1:", result1 === 2 ? "Passed" : "Failed");
   console.log("Test case 2:", result2 === 3 ? "Passed" : "Failed");
   console.log("Test case 3:", result3 === 1 ? "Passed" : "Failed");
   
-  // Check if all tests passed
+
   const allPassed = results.every(result => result);
   console.log("All tests passed:", allPassed ? "Yes" : "No")
   
