@@ -6,7 +6,8 @@ function smallestMissingPositiveInteger(nums) {
 
   nums.sort((a , b) => a - b)
 
-    // Implement the function smallest_missing_positive_integer
+   let smallestNum = 1
+   for(const num of nums)
   
   }
   
