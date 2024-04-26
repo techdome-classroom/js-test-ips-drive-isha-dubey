@@ -18,12 +18,11 @@ return smallestNum;
 }
 function runTestCases() {
   const results = [];
-  
-  // Test case 1
+ //1
   const result1 = smallestMissingPositiveInteger([3, 4, -1, 1]);
   results.push(result1 === 2);
   
-  // Test case 2
+  // 1
   const result2 = smallestMissingPositiveInteger([1, 2, 0]);
   results.push(result2 === 3);
   
