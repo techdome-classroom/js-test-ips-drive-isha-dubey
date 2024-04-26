@@ -44,4 +44,5 @@ function runTestCases() {
     
     
   }
+  
   module.exports = smallestMissingPositiveInteger;
